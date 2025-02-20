@@ -7,11 +7,21 @@
       Связаться со мной &darr;
     </p>
     <div class="flex flex-col gap-4 justify-center items-center">
-      <p><b class="pr-2">Email </b>zilsoft@proton.me</p>
       <p>
-        <b class="pr-2">GitHub</b>
-        <a class="text-violet-400" href="#git" aria-label="Исходники"
-          >zilsoft
+        <i class="fa-solid fa-at pr-2"></i>
+        <a
+          class="hover:text-violet-400"
+          href="mailto:zilsoft@proton.me"
+          aria-label="Нписать письмо">zilsoft@proton.me</a
+        >
+      </p>
+      <p>
+        <i class="fa-brands fa-github pr-2"></i>
+        <a
+          class="hover:text-violet-400"
+          href="https://github.com/Zilsoft"
+          aria-label="Исходники"
+          >Zilsoft
           <sup>
             <i
               class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%] pl-0.5"
@@ -21,9 +31,12 @@
         </a>
       </p>
       <p>
-        <b class="pr-2">LinkedIn</b>
-        <a class="text-violet-400" href="#git" aria-label="Исходники"
-          >zilsoft
+        <i class="fa-brands fa-telegram pr-2"></i>
+        <a
+          class="hover:text-violet-400"
+          href="https://t.me/ZilProg"
+          aria-label="Телеграм"
+          >ZilProg
           <sup>
             <i
               class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%] pl-0.5"

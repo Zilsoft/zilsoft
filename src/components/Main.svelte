@@ -2,7 +2,7 @@
   import Step from "./Step.svelte";
   let steps = [
     {
-      name: "Исследования",
+      name: "Диагностика ПТСР",
       icon: "fa-solid fa-brain",
       href: "https://mental.crimea-rehab.ru/home/ptsd",
     },
@@ -12,7 +12,7 @@
       href: "http://147.45.150.124:8080/config",
     },
     {
-      name: "Медицинский центр",
+      name: "Медицинская реабилитация",
       icon: "fa-solid fa-hand-holding-medical",
       href: "https://crimea-rehab.ru/",
     },
@@ -159,7 +159,7 @@
       {/each}
     </div>
     <h5 class="lato font-semibold text-center text-2xl sm:text-3xl">
-      <span class="lato text-violet-400">Полный</span> пакет услуг:
+      Почему именно <span class="lato text-violet-400">Я?</span>
     </h5>
     <div
       class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
