@@ -221,8 +221,30 @@
     <div class="mx-auto -mt-12 italic md:hidden opacity-50">
       <p>Прокрутите чтобы увидеть всё &rarr;</p>
     </div>
-    <p class="mx-auto">
-      Есть повод поработать <span class="text-violet-400">вместе!</span>
+    <p class="mx-auto font-semibold text-center text-2xl sm:text-3xl">
+      Есть повод поработать <span
+        class="font-bold bg-gradient-to-r from-purple-700 via-pink-700 to-sky-700 bg-clip-text text-transparent animate-gradient"
+        >вместе!</span
+      >
     </p>
   </section>
 </main>
+
+<style>
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s ease infinite;
+  }
+</style>
