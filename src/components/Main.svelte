@@ -83,7 +83,7 @@
       </h3>
     </div>
     <a
-      href="#work"
+      href="https://rutube.ru/video/private/5e42fb3296bda852d75b8a343cf5e919/?p=c6OB8L6PET4z0jXMOhOo5A"
       aria-label="Мои работы"
       class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
     >
