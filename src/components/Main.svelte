@@ -50,7 +50,7 @@
         <span class="lato text-violet-400">полного стека</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        Мой <span class="text-violet-400">сновной стек</span> включает
+        Мой <span class="text-violet-400">основной стек</span> включает
         <br />Frontend: JavaScript, SvelteKit, TailwindCSS<br />Backend:
         PostgreSQL, FastAPI
       </p>
